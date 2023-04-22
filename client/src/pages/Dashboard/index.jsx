@@ -72,7 +72,7 @@ const Dashboard = () => {
     <>
     {
       authorized ? 
-    <div className='dashboard'>
+    <div className='dashboard my-2'>
       <div className="db-addbook">
         <h2>Add a new book</h2>
         <div className="ab ab-book-title">

@@ -5,6 +5,7 @@ import './style.css'
 
 import {AiOutlineSearch} from 'react-icons/ai'
 import axios from 'axios'
+import { toast } from 'react-toastify'
 
 const Home = () => {
 

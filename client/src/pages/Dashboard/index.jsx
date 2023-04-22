@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import '@/component/Navbar/style.css'
+// import '@/component/Navbar/style.css'
+import './style.css'
+
 
 import {AiOutlineDelete} from 'react-icons/ai'
 import { useLocation } from 'react-router-dom'

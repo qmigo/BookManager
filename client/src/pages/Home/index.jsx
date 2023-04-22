@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import '@/component/Navbar/style.css'
+// import '@/component/Navbar/style.css'
+import './style.css'
+
 
 import {AiOutlineSearch} from 'react-icons/ai'
 import axios from 'axios'

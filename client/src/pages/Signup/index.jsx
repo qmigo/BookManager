@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
-import '@/component/Navbar/style.css'
+// import '@/component/Navbar/style.css'
+import './style.css'
+
 
 import { Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'

@@ -1,0 +1,39 @@
+.home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+}
+.search-container{
+    display: flex;
+    padding: 3px 15px;
+    /* flex-direction: column; */
+    width: fit-content;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.book-title-filter,.author-filter{
+    outline: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+.search-container input,.search-container input:focus,.search-container input:active{
+    outline: none;
+    border: none;
+}
+.table{
+    width: 70%;
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.481);
+    margin: auto;
+}
+tr,th{
+    padding: 10px!important;
+}
+
+@media only screen and (max-width: 620px) {
+    .search-container{
+        flex-direction: column;
+    }
+  }

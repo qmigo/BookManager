@@ -1,0 +1,52 @@
+.signin{
+    display: flex;
+    flex-direction: column;
+}
+.signin>h1{
+    margin-top: 10px;
+    text-align: center;
+}
+.signin-options{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 30px auto;
+    gap: 20px;
+}
+.signin-block{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.signin-block>label{
+    font-size: large;
+    font-weight: 500;
+    color: rgb(56, 56, 53);
+}
+.signin-block>input{
+    padding: 5px;
+}
+.signin-block>input:focus{
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid green;   
+}
+.signin-block>input:active{
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid green; 
+}
+
+@media only screen and (max-width: 620px) {
+    .signin{
+        margin-top: 10px;
+    }
+   .signin-options{
+    gap: 20px;
+    width: 80%;
+    margin: 10px auto;
+   }
+   .signin-block>a{
+    font-size: 0.8rem;
+   }
+  }
